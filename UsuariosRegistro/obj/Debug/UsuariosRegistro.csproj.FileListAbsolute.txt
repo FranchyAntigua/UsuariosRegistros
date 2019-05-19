@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\UsuariosRegistro.exe.config
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\UsuariosRegistro.exe
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\UsuariosRegistro.pdb
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.csprojAssemblyReference.cache
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.Form1.resources
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.Properties.Resources.resources
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.UI.Registros.rUsuarios.resources
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.csproj.GenerateResource.cache
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.csproj.CopyComplete
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.exe
+C:\Users\user\source\repos\UsuariosRegistro\UsuariosRegistro\obj\Debug\UsuariosRegistro.pdb
