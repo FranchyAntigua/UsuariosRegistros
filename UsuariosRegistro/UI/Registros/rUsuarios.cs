@@ -46,33 +46,64 @@ namespace UsuariosRegistro.UI.Registros
 
         private void Guardarbutton_Click(object sender, EventArgs e)
         {
-          
+
 
             Usuarios usuarios = UsuarioBLL.Buscar((int)IdnumericUpDown.Value);
 
-           if (Validar(2))
+            if (ValidarForm())
             {
-            if (usuarios == null)
-            {
-                if (UsuarioBLL.Guardar(LlenaClase()))
-                    MessageBox.Show("Guardado Con Exito");
+                if (usuarios == null)
+                {
+                    if (UsuarioBLL.Guardar(LlenaClase()))
+                        MessageBox.Show("Guardado Con Exito");
+                    else
+                        MessageBox.Show("El Cliente No Se Guardo");
+                }
                 else
-                    MessageBox.Show("El Cliente No Se Guardo");
+                {
+                    if (UsuarioBLL.Editar(LlenaClase()))
+                        MessageBox.Show("Modificado Con Exito");
+                    else
+                        MessageBox.Show("El Cliente No Se Modifico");
+                }
             }
             else
             {
-                if (UsuarioBLL.Editar(LlenaClase()))
-                    MessageBox.Show("Modificado Con Exito");
-                else
-                    MessageBox.Show("El Cliente No Se Modifico");
+                MessageBox.Show("fALTAN dATOS");
             }
         }
-            else
-              
-            LimpiarProvider();
-        
+        //else
 
-    }
+        //LimpiarProvider();
+
+
+        // }x
+        private bool ValidarForm()
+        {
+            bool retorno = true;
+            if (NombrestextBox.Text.Length == 0)
+            {
+                retorno = false;
+            }
+            else if (UsuariotextBox.TextLength == 0)
+            {
+                retorno = false;
+            }
+            else if(EmailtextBox.TextLength == 0)
+            {
+                retorno = false;
+            }
+            else if (ClavetextBox.TextLength == 0)
+            {
+                retorno = false;
+            }
+            else if (NivelUsuariotextBox.TextLength == 0)
+            {
+                retorno = false;
+            }
+            return retorno;
+
+        }
         private void LimpiarProvider()
         {
             IdErrorProvider.Clear();
@@ -131,7 +162,7 @@ namespace UsuariosRegistro.UI.Registros
 
             if (usuarios != null)
             {
-           
+
                 FechaIngresoDateTimePicker.Value = usuarios.FechaIngreso;
                 NombrestextBox.Text = usuarios.Nombres;
                 UsuariotextBox.Text = usuarios.Usuario;
@@ -160,5 +191,5 @@ namespace UsuariosRegistro.UI.Registros
             limpiar();
         }
     }
- 
+
 }

@@ -240,7 +240,7 @@
             this.Controls.Add(this.NivelUsuariotextBox);
             this.Controls.Add(this.NombrestextBox);
             this.Name = "rUsuarios";
-            this.Text = "rUsuarios";
+            this.Text = "`";
             ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IdErrorProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OtroErrorProvider)).EndInit();

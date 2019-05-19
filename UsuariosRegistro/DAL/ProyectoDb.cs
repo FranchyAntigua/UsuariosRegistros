@@ -11,6 +11,7 @@ namespace UsuariosRegistro.DAL
     class ProyectoDb :DbContext
     {
         public DbSet<Usuarios> Usuarios { get; set; }
+      //  public DbSet<Fibonacci> Fibonacci { get; set; }
         public ProyectoDb() : base("ConStr")
         {
 
